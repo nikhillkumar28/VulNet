@@ -1,4 +1,4 @@
-# Vulnerability Detection in Network Topology using Image Processing
+# Vulnerability Detection in Network Topology using Computer Vision
 
 ## Overview
 
@@ -42,8 +42,6 @@ The system highlights vulnerable areas using bounding boxes and generates warnin
 - OpenCV
 - NumPy
 - Matplotlib
-- Google Colab
-
 ---
 
 ## Project Workflow
@@ -72,13 +70,13 @@ The dataset contains:
 ## Model Training
 
 The model was trained using:
-- YOLOv8 Nano
+- YOLOv8 
 - Transfer Learning
 - Data Augmentation
 
 Training Settings:
-- Epochs: 12
-- Image Size: 640
+- Epochs: 20
+- Image Size: 780
 - Batch Size: 8
 
 ---
